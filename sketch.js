@@ -20,10 +20,15 @@ function setup() {
 
 	roofObject=new roof(400,250,230,20);
 	bob1 = new bob(320,575,40)
+	strokeWeight(5);
 	bob2 = new bob(360,575,40)
+		strokeWeight(5);
 	bob3 = new bob(400,575,40)
+		strokeWeight(5);
 	bob4 = new bob(440,575,40)
+		strokeWeight(5);
 	bob5 = new bob(480,575,40)
+		strokeWeight(5);
 	
 	
 	rope1=new rope(bob1.body,roofObject.body,-80, 0)
